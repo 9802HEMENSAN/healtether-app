@@ -34,7 +34,7 @@ export default function Footer() {
           spacing={12}
         >
           <Stack spacing={6}>
-            <Box  fontSize={[10,20]} >
+            <Box  fontSize={[16,20]} >
               <Text   >
                 Join us on this transformative journey as we redefine healthcare
                 together. HealTether is here to meet all your healthcare needs,
@@ -43,7 +43,7 @@ export default function Footer() {
               </Text>
             </Box>
           </Stack>
-          <Stack align={"flex-start"} fontSize={[10,18]}>
+          <Stack align={"flex-start"} fontSize={[16,18]}>
             <ListHeader fontWeight={"bold"}>Useful Links</ListHeader>
             <Box as="a" href={"#"}>
               About us
@@ -58,7 +58,7 @@ export default function Footer() {
               Privacy Policy
             </Box>
           </Stack>
-          <Stack align={"flex-start"}  fontSize={[10,18]}>
+          <Stack align={"flex-start"}  fontSize={[16,18]}>
             <ListHeader >Contact Us</ListHeader>
             <Box as="a" href={"#"}>
               No.12(2) Veerazhagamman Street
@@ -80,7 +80,7 @@ export default function Footer() {
             </Box>
           </Stack>
         </SimpleGrid>
-        <Text  fontSize={[10,18]}  m={6}>
+        <Text  fontSize={[14,18]}  m={6}>
           Copyright 2023 Healtehter communication Pvt. Ltd All rights Reserved
         </Text>
       </Container>

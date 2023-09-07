@@ -111,7 +111,7 @@ const Navbar = () => {
                   }}
                   px="2"
                   py="1"
-                  fontSize = {[10,12,17]}
+                  fontSize = {[12,17]}
                   fontWeight={600}
                 >
                   {el.text}
