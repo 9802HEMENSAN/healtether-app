@@ -11,9 +11,7 @@ import MainRoutes from './routes/MainRoutes';
 function App() {
   return (
     <Box  minW = '280px' className="App"  fontFamily={"Open Sans"} fontSize={"16px"}> 
-      <Navbar />
          <MainRoutes/>
-         <Footer/>
     </Box>
   );
 }
