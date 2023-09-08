@@ -27,15 +27,16 @@ export default function Footer() {
       bg={useColorModeValue("teal.500", "teal.500")}
       color={useColorModeValue("white", "white")} 
     >
-      <Container as={Stack} maxW={"6xl"} py={10}>
-     <Image w={{sm : 100, md : 200}} src={logo1} />
+      <Container as={Stack} maxW={"6xl"} py={5}>
+     <Image w={{sm : 100, md : 200}} src={logo1}  ml={[0,0,-20]}/>
         <SimpleGrid
           templateColumns={{ sm: "1fr", md: "2fr 1fr 1fr" }}
           spacing={12}
+          ml={[0,0,-20]}
         >
           <Stack spacing={6}>
             <Box  fontSize={[16,20]} >
-              <Text   >
+              <Text  textAlign="start" >
                 Join us on this transformative journey as we redefine healthcare
                 together. HealTether is here to meet all your healthcare needs,
                 providing convenient, accessible, and high-quality care at your

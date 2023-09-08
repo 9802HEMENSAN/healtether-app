@@ -12,9 +12,10 @@ import {
 
 export default function MainBody() {
   return (
-    <Stack direction={{ base: "column", md: "row" }} fontFamily={"Open Sans"}>
-      <Flex p={8} flex={1} align="center" justify="center">
-        <Stack spacing={6} w={"full"} maxW={"lg"}>
+    <Stack direction={{ base: "column", md: "row" }} fontFamily={"Open Sans"}
+    m={{ base : 5 , md : 3 }} >
+      <Flex   flex={1.5} align="center" justify="center"   >
+        <Stack   w={"full"} maxW={"lg"}>
           <Heading
             as={"h3"}
             fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
@@ -42,8 +43,8 @@ export default function MainBody() {
               bgGradient="linear(to-l, #98fb98, #95aa95)"
               _hover={{ bgGradient: "linear(to-r, #98fb98, #95aa95)" }}
               rounded="full"
-              py={3}
-              px={5}
+              my={3}
+              mx={5}
               color="white"
               fontSize={{ base: "xl", sm: "lg", md: "2xl" }}
               fontWeight="semibold"
@@ -54,8 +55,8 @@ export default function MainBody() {
               border="1px"
               borderColor="green.600"
               rounded="full"
-              py={3}
-              px={5}
+              my={3}
+              mx={5}
               fontSize="2xl"
               fontWeight="semibold"
               _hover={{ shadow: "md", bg: "gray.100" }}
@@ -72,7 +73,7 @@ export default function MainBody() {
         <Image
           alt={"healtether Image"}
           objectFit={"cover"}
-          w={{ base: 300, md: 400, lg: 500 }}
+          w={{ base: 300, md: 400, lg: 400 }}
           src={"https://healtether.netlify.app/assets/new1-f04eeefd.jpg"}
         />
       </Flex>

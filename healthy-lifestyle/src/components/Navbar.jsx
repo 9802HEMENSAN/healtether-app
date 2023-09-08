@@ -53,7 +53,6 @@ const Navbar = () => {
     <Box
       zIndex={"3"}
       minW="280px"
-      mb="20px"
       border="gray.200"
       position={"sticky"}
       top="0"
@@ -64,15 +63,15 @@ const Navbar = () => {
       p="2"
     >
       <HStack
-        m="auto"
+        m={"auto"}
         w={{ base: "95%", "587px": "90%", "1120px": "80%" }}
         justify="space-between"
       >
      
 
-        <Image _hover={{ cursor: "pointer" }} w={["100px","170px"]} m={[2,5]} src={logo1}></Image>
+        <Image _hover={{ cursor: "pointer" }} w={["100px","170px"]} mr={[2,5]} src={logo1}></Image>
 
-        <Image _hover={{ cursor: "pointer" }} w={["100px","150px"]} m={[2,5]} src={logo2}></Image>
+        <Image _hover={{ cursor: "pointer" }} w={["100px","150px"]} mr={[2,5]} src={logo2}></Image>
 
         <IconButton
           size={["sm", "md"]}
@@ -129,8 +128,6 @@ const Navbar = () => {
             fontWeight="medium"
             rounded="full"
             fontSize="sm"
-            px={4}
-            py={2}
             textAlign="center"
             mr={{ base: 3, md: 0 }}
           >
@@ -145,8 +142,6 @@ const Navbar = () => {
             rounded="full"
             fontSize="sm"
             border="0.5px solid teal"
-            px={4}
-            py={2}
             textAlign="center"
             mr={{ base: 3, md: 0 }}
           >
