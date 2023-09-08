@@ -91,6 +91,7 @@ export default function Navbar() {
             >
               Download App
             </Button>
+            <RouterLink to={"/login"}> 
             <Button
               display={{ base: "none", md: "inline-flex" }}
               color="green.700"
@@ -106,6 +107,7 @@ export default function Navbar() {
             >
               Login
             </Button>
+            </RouterLink>
           </Flex>
         </Stack>
       <Flex
