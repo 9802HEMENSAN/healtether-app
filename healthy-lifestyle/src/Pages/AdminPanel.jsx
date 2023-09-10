@@ -1,8 +1,12 @@
 import React from 'react'
+import AdminSidebar from '../components/admin/AdminSidebar'
 
 const AdminPanel = () => {
   return (
-    <div>AdminPanel</div>
+    <div>
+      <h1>AdminPanel</h1>
+       <AdminSidebar/>
+    </div>
   )
 }
 

@@ -12,18 +12,19 @@ import {
   Stack,
   Image,
   Box,
-  FormHelperText,
   FormErrorMessage,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
+  const navigate=useNavigate("")
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
-      alert('Make a Login Login here')
+      alert('Make a Login Logic here ! CLick okay to go to DashBoard')
+      navigate("/admin/time")
   }
 
   return (
