@@ -11,9 +11,9 @@ import {
   HiOutlineChat,
   HiOutlineFolder,
 } from "react-icons/hi";
-import AllPatients from "../components/admin/AllPatients";
+import AllPatients from "../components/admin/AllPatients/AllPatients";
 import Time from "../components/admin/Time";
-import Whatsapp from "../components/admin/Whatsapp";
+ 
  
 import Staff from "../components/admin/Staff";
 import CreateSlot from "../components/admin/CreateSlot";
@@ -22,6 +22,7 @@ import GoogleProfile from "../components/admin/GoogleProfile";
 import Analytics from "../components/admin/Analytics";
 import Revenue from "../components/admin/Revenue";
 import Dashboard from "../components/admin/DashBoard/Dashboard";
+import Whatsapp from "../components/admin/WhatsApp/Whatsapp";
 
 const MainRoutes = () => {
   return (

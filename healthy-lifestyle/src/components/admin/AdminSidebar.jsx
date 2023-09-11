@@ -17,7 +17,8 @@ const AdminSidebar = () => {
       style={{
         display: "flex",
         padding: "20px",
-        gap : "2rem",
+        gap : "1rem",
+        maxHeight: "100vh",
         width: "15%",
         height: "89.7vh",
         flexDirection: "column",
@@ -35,12 +36,18 @@ const AdminSidebar = () => {
           <Text fontSize={"large"}>Dashboard</Text>
         </Flex>
       </Link>
+      <Link to="/admin/chat">
+        <Flex justify={"center"} alignItems={"center"} gap={3}>
+          <RiWhatsappFill fontSize={"x-large"} color="green" />
+          <Text fontSize={"large"}>WhatsApp</Text>
+        </Flex>
+      </Link>
       {/* <Link to="/admin/time"> */}
       <Link bg="red" to="/admin/time">
         <Flex justify={"center"} alignItems={"center"} gap={3}>
           <BiTimeFive fontSize={"x-large"} color="orange" />
 
-          <Text fontSize={"large"}>Time</Text>
+          <Text fontSize={"large"}>Timings</Text>
         </Flex>
       </Link>
       {/*  */}
@@ -48,15 +55,10 @@ const AdminSidebar = () => {
         <Flex justify={"center"} alignItems={"center"} gap={3}>
           <FaClipboard fontSize={"x-large"} color="red" />
 
-          <Text fontSize={"large"}>Patients</Text>
+          <Text fontSize={"large"}>All Patients</Text>
         </Flex>
       </Link>
-      <Link to="/admin/chat">
-        <Flex justify={"center"} alignItems={"center"} gap={3}>
-          <RiWhatsappFill fontSize={"x-large"} color="green" />
-          <Text fontSize={"large"}>WhatsApp</Text>
-        </Flex>
-      </Link>
+ 
       <Link to="/admin/staff">
         <Flex justify={"center"} alignItems={"center"} gap={3}>
          < FaUserNurse fontSize={"x-large"} color="purple" />
@@ -89,7 +91,7 @@ const AdminSidebar = () => {
       </Link>
       <Link to="/admin/CreateSlot"> 
       <Flex justify={"center"} alignItems={"center"} gap={3}>
-         <FcSearch fontSize={"x-large"} color="pink" />
+         <FcSearch fontSize={"large"} color="pink" />
           <Text fontSize={"large"}>Google-profile</Text>
         </Flex>
       </Link>
