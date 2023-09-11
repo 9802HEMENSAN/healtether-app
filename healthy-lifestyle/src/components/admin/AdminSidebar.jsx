@@ -21,10 +21,12 @@ const AdminSidebar = () => {
         width: "14%",
         height: "89.7vh",
         flexDirection: "column",
-        backgroundColor: "#FFEDED",
+        backgroundColor: "white",
         color: "black",
         alignItems: "flex-start",
         paddingLeft: "20px",
+        fontFamily : "Open Sans",
+        borderColor : "1px solid black"
       }}
     >
       <Link to="/admin/dashboard">
