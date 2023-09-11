@@ -27,7 +27,7 @@ const AllPatients = () => {
       <div style={{ display: "flex", backgroundColor: "#F7FAFC" }}>
         <AdminSidebar />
 
-        <Box fontFamily={"Open Sans"} p={5} width={"80%"}>
+        <Box fontFamily={"Open Sans"} p={5} width={"100%"}>
           {/* Top side */}
           <Flex 
           m={[5, 10, 15]}

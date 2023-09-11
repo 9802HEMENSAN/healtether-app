@@ -36,7 +36,7 @@ const Dashboard = () => {
       <div style={{ display: "flex" }}>
         <AdminSidebar />
         {/* <h1>Dashboard</h1> */}
-        <Box fontFamily={"Open Sans"} p={5} width={"70%"}  >
+        <Box fontFamily={"Open Sans"} p={5} width={"100%"}  m={5}>
           <Flex direction={["column","row"]}  gap={5} justifyContent={"space-between"}>
             <Flex flexDirection={"column"} align={"start"}>
               <Text fontWeight={"600"} fontSize={["small", "medium", "2xl"]}>

@@ -9,7 +9,7 @@ const Navbar = () => {
     <Flex
       position={"sticky"}
       top={0}
-      width={"86%"}
+      width={"99%"}
       layerStyle="card"
       h="4.5rem"
       roundedBottom={[, , "2xl"]}
