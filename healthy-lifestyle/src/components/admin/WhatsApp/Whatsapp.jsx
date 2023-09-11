@@ -96,7 +96,7 @@ const Whatsapp = () => {
                 </Flex>
                 <Flex direction={"column"}  align={"start"}>
                   <Flex gap={2}   justifyContent={"space-between"} w={300}>
-                    <Text fontWeight={"bold"}>Paperplane Support</Text>
+                    <Text fontWeight={"bold"}>healtether Support</Text>
                     <Text >{new Date().toLocaleDateString()}</Text>
                   </Flex>
                   <Text>Hey Dr. Arjun Krishna...</Text>
