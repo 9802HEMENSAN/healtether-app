@@ -20,6 +20,7 @@ import CreateSlot from "../components/admin/CreateSlot";
 import Marketting from "../components/admin/Marketting";
 import GoogleProfile from "../components/admin/GoogleProfile";
 import Analytics from "../components/admin/Analytics";
+import Revenue from "../components/admin/Revenue";
 
 const MainRoutes = () => {
   return (
@@ -37,6 +38,7 @@ const MainRoutes = () => {
           <Route path="allPatients" element={<AllPatients/>}></Route>
           <Route path="marketing" element={<Marketting/>}></Route>
           <Route path="analytics" element={<Analytics/>}></Route>
+          <Route path="revenue" element={<Revenue/>}></Route>
           <Route
             path="google-profile"
             element={<GoogleProfile/>}
@@ -49,14 +51,4 @@ const MainRoutes = () => {
 
 export default MainRoutes;
 
-export const routes = [
-  { name: "Dashboard", href: "/", icon: RiDashboardLine },
-  { name: "WhatsApp", href: "/chat", icon: HiOutlineChat, count: 3 },
-  { name: "Timings", href: "/CreateSlot", icon: HiOutlineCalendar },
-  { name: "All Patients", href: "/allPatients", icon: HiOutlineFolder },
-  { name: "Staff", href: "/staff", icon: BiBasket },
-  { name: "Marketting", href: "/marketing", icon: BiBasket },
-  { name: "Analytics", href: "/analytics", icon: BiBasket },
-  { name: "Customise Form", href: "/customise-form", icon: BiBasket },
-  { name: "Google Profile", href: "/google-profile", icon: BiBasket },
-];
+ 
