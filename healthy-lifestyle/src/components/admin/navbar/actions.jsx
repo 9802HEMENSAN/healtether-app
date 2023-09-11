@@ -3,19 +3,18 @@ import { Box, Stack, StackProps } from "@chakra-ui/layout";
 import React from "react";
 import Notifications from "./notifications";
 import Profile from "./profile";
-import { ThemeToggle } from "./theme-toggle";
+ 
 import { CgMenuRightAlt, CgMenuMotion } from "react-icons/cg";
 import Icon from "@chakra-ui/icon";
-import { useDisclosure } from "@chakra-ui/hooks";
+ 
 import { SlideFade } from "@chakra-ui/transition";
 const Actions = () => {
-  const { onToggle, isOpen } = useDisclosure();
+ 
   return (
     <>
       <ActionsList display={["none", , "flex"]} />
-      <ActionsButton onClick={onToggle} isOpen={isOpen} />
       <Box pos="absolute" insetX="5" top="5rem" zIndex="overlay">
-        <SlideFade in={isOpen} offsetY="90px">
+        <SlideFade  offsetY="90px">
           <ActionsList
             p={5}
             justify="center"
@@ -34,7 +33,6 @@ const Actions = () => {
 const ActionsList = (props ) => {
   return (
     <Stack direction="row" alignItems="center" spacing={[2, , 6]} {...props}>
-      <ThemeToggle />
       <Notifications />
       <Profile />
     </Stack>

@@ -8,7 +8,7 @@ const AllPatients = () => {
       <div>
         <Navbar/>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" , backgroundColor : "#F7FAFC"}}>
         <AdminSidebar />
         <h1>AllPatients</h1>
       </div>
