@@ -9,9 +9,10 @@ const GoogleProfile = () => {
       <div>
         <Navbar />
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }}  >
         <AdminSidebar />
-        <Flex
+        <Flex   
+          w="100%" 
           direction={"column"}
           align="start"
           fontFamily={"Open Sans, sans-serif;"}
@@ -23,14 +24,15 @@ const GoogleProfile = () => {
             boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
             p={10}
             m={5}
-            w={"100%"}
+ 
+            w="90%"
           >
             <Heading textAlign={"left"} color="blue.500" fontWeight={700} fontSize={["20px"]}>
               No Location
             </Heading>
 
             <Flex direction={"column"} justifyContent={"center"} align={"center"}>
-              <Image w={"60%"} h={"50%"} src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif" />
+              <Image w={"35%"} h={"300px"} src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif" />
               <Center p={8}>
                 <Button
                   w={"full"}
