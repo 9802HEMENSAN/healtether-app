@@ -14,13 +14,14 @@ import {
 import AllPatients from "../components/admin/AllPatients";
 import Time from "../components/admin/Time";
 import Whatsapp from "../components/admin/Whatsapp";
-import Dashboard from "../components/admin/Dashboard";
+ 
 import Staff from "../components/admin/Staff";
 import CreateSlot from "../components/admin/CreateSlot";
 import Marketting from "../components/admin/Marketting";
 import GoogleProfile from "../components/admin/GoogleProfile";
 import Analytics from "../components/admin/Analytics";
 import Revenue from "../components/admin/Revenue";
+import Dashboard from "../components/admin/DashBoard/Dashboard";
 
 const MainRoutes = () => {
   return (

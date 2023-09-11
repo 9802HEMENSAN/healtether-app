@@ -18,7 +18,7 @@ const AdminSidebar = () => {
         display: "flex",
         padding: "20px",
         gap : "2rem",
-        width: "14%",
+        width: "15%",
         height: "89.7vh",
         flexDirection: "column",
         backgroundColor: "white",
@@ -26,7 +26,7 @@ const AdminSidebar = () => {
         alignItems: "flex-start",
         paddingLeft: "20px",
         fontFamily : "Open Sans",
-        borderColor : "1px solid black"
+        borderRight : "0.1px solid gray"
       }}
     >
       <Link to="/admin/dashboard">

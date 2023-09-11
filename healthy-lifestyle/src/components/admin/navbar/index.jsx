@@ -12,7 +12,7 @@ const Navbar = () => {
     <Flex
       position={"sticky"}
       top={0}
-
+      width={"86%"}
       layerStyle="card"
       h="4.5rem"
       roundedBottom={[, , "2xl"]}
