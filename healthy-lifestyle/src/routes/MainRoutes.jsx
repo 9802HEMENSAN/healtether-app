@@ -15,7 +15,7 @@ import AllPatients from "../components/admin/AllPatients/AllPatients";
 import Time from "../components/admin/Time";
  
  
-import Staff from "../components/admin/Staff";
+import Staff from "../components/admin/Staff/Staff";
 import CreateSlot from "../components/admin/CreateSlot";
 import Marketting from "../components/admin/Marketting";
 import GoogleProfile from "../components/admin/GoogleProfile";
