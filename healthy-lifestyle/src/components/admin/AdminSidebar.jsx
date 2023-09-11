@@ -89,7 +89,7 @@ const AdminSidebar = () => {
           <Text fontSize={"large"}>Customise Form</Text>
         </Flex>
       </Link>
-      <Link to="/admin/CreateSlot"> 
+      <Link to="/admin/google-profile"> 
       <Flex justify={"center"} alignItems={"center"} gap={3}>
          <FcSearch fontSize={"large"} color="pink" />
           <Text fontSize={"large"}>Google-profile</Text>
