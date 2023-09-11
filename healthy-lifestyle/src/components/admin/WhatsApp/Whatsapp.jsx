@@ -92,7 +92,7 @@ const Whatsapp = () => {
                   color="white"
                   borderRadius={"50%"}
                 >
-                  P
+                  H
                 </Flex>
                 <Flex direction={"column"}  align={"start"}>
                   <Flex gap={2}   justifyContent={"space-between"} w={300}>
