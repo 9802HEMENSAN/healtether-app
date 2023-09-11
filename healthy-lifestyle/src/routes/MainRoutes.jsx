@@ -17,7 +17,7 @@ import Time from "../components/admin/Time";
  
 import Staff from "../components/admin/Staff/Staff";
 import CreateSlot from "../components/admin/CreateSlot";
-import Marketting from "../components/admin/Marketting";
+import Marketting from "../components/admin/Marketting/Marketting";
 import GoogleProfile from "../components/admin/GoogleProfile";
 import Analytics from "../components/admin/Analytics";
 import Revenue from "../components/admin/Revenue";
