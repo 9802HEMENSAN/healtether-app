@@ -91,12 +91,10 @@ const Navbar = () => {
         alignItems={"center"}
         padding={"20px"}
         color={"green.400"}
-        position={"fixed"}
         width={"100%"}
-        top={0}
-        left={0}
+         
       >
-        <Flex justifyContent={"center"} alignItems={"center"}>
+        <Flex justifyContent={"space-around"} alignItems={"center"} gap={5}>
           <Image
             _hover={{ cursor: "pointer" }}
             w={["100px", "170px"]}
@@ -118,6 +116,7 @@ const Navbar = () => {
             onClick={onOpen}
             display={["block", "none"]}
             ml={[, , "auto"]}
+            cursor={"pointer"}
           >
             <HamburgerIcon fontSize={"32px"} />
           </Box>
