@@ -1,6 +1,6 @@
  import React from "react";
 import Navbar from "../navbar";
-import AdminSidebar from "../AdminSidebar";
+import AdminSidebar from "../AdminSidebar/AdminSidebar";
 import { Box, Button, Flex, Heading, Select, Input,
     Stack,
    Text, 

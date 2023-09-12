@@ -1,5 +1,5 @@
 import React from "react";
-import AdminSidebar from "../AdminSidebar";
+import AdminSidebar from "../AdminSidebar/AdminSidebar";
 import Navbar from "../navbar/index";
 import {
   Box,
@@ -29,12 +29,14 @@ import { Divider } from '@chakra-ui/react'
 
 const Dashboard = () => {
   return (
-    <Box minHeight="100vh">
+    <Box minHeight="100vh" fontFamily={"Open Sans, sans-serif;"}>
       <div>
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>
+      {/* <Box   display={{ base: "none", md: "block" }} > */}
         <AdminSidebar />
+      {/* </Box> */}
         {/* <h1>Dashboard</h1> */}
         <Box fontFamily={"Open Sans"} p={5} width={"100%"}  m={5}>
           <Flex direction={["column","row"]}  gap={5} justifyContent={"space-between"}>

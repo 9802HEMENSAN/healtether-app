@@ -1,5 +1,5 @@
 import React from "react";
-import AdminSidebar from "../AdminSidebar";
+import AdminSidebar from "../AdminSidebar/AdminSidebar";
 import Navbar from "../navbar/index";
 import { Box, Button, Center, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { FcGoogle } from "react-icons/fc";

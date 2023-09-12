@@ -1,0 +1,13 @@
+/* Assuming you have a CSS file linked to your HTML/JSX */
+
+.sidebar-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.sidebar-link:hover {
+  color: blue;
+  font-weight: 700;
+}

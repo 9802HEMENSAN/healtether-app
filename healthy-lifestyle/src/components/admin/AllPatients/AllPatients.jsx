@@ -1,5 +1,5 @@
 import React from "react";
-import AdminSidebar from "../AdminSidebar";
+import AdminSidebar from "../AdminSidebar/AdminSidebar";
 import Navbar from "../navbar/index";
 import { Box, Button, Flex, Heading, Select } from "@chakra-ui/react";
 import { HiOutlinePlus } from "react-icons/hi";

@@ -1,4 +1,4 @@
-import AdminSidebar from "../AdminSidebar";
+import AdminSidebar from "../AdminSidebar/AdminSidebar";
 import Navbar from "../navbar/index";
 import React, { useState } from "react";
 import {
