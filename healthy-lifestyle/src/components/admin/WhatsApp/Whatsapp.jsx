@@ -23,7 +23,7 @@ const Whatsapp = () => {
       </div>
       <div style={{ display: "flex" }}>
         <AdminSidebar />
-        <Flex direction={["column", "row"]}>
+        <Flex direction={["column", "row"]} position={"relative"} ml={["1%","20%"]} >
           {/* Left Box */}
           <Box flex={1} width="30rem" my={10} >
             <Flex alignItems={"center"} justifyContent={"center"} gap={1}>

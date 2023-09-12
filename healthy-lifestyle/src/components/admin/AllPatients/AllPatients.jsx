@@ -20,14 +20,14 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const AllPatients = () => {
   return (
-    <div>
+    <div >
       <div>
         <Navbar />
       </div>
       <div style={{ display: "flex", backgroundColor: "#F7FAFC" }}>
         <AdminSidebar />
 
-        <Box fontFamily={"Open Sans"} p={5} width={"100%"}>
+        <Box fontFamily={"Open Sans"} p={5} width={"70%"} position={"relative"} ml={"20%"}>
           {/* Top side */}
           <Flex 
           m={[5, 10, 15]}

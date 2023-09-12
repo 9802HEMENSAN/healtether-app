@@ -21,20 +21,12 @@ const Navbar = () => {
           <Image
             src="https://healtether.netlify.app/assets/newlogo-bce991c9.png"
             height="90px"
-            width="260px"
+            width={["260px", , "300px"]}
             mt={3}
           ></Image>
 
           <Spacer display={{ md: "none" }} />
-          <Text
-            textStyle="default"
-            fontSize="xl"
-            fontWeight="semibold"
-            fontFamily="cursive"
-            display={{ md: "none" }}
-          >
-            HealTether
-          </Text>
+         
           <Search display={["none", , "initial"]} />
           <Spacer />
           <Actions />

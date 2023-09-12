@@ -103,7 +103,7 @@ const Time = () => {
       </div>
       <div style={{ display: "flex" }}>
         <AdminSidebar />
-        <Box p={4} fontFamily={"Open Sans"} width={"100%"}>
+        <Box p={4} fontFamily={"Open Sans"} width={"100%"} position={"relative"} ml={["1%","20%"]} >
           <Stack spacing={2} m={10}>
             <Flex gap={4}  align={"center"}>
               <Text fontSize={[14, 16, 18]}>Showing your timings for:</Text>

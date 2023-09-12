@@ -30,6 +30,7 @@ const Analytics = () => {
           p={5}
           width={"100%"}
           boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
+          position={"relative"} ml={["1%","18%"]} 
           m={5}
         >
           {/*  */}

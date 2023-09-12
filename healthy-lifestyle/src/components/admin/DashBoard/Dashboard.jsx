@@ -38,7 +38,7 @@ const Dashboard = () => {
         <AdminSidebar />
  
         {/* <h1>Dashboard</h1> */}
-        <Box fontFamily={"Open Sans"} p={5} width={"100%"}  m={5}>
+        <Box fontFamily={"Open Sans"} p={5} width={"100%"}  m={5} position={"relative"} ml={["1%","20%"]} >
           <Flex direction={["column","row"]}  gap={5} justifyContent={"space-between"}>
             <Flex flexDirection={"column"} align={"start"}>
               <Text fontWeight={"600"} fontSize={["small", "medium", "2xl"]}>

@@ -26,7 +26,7 @@ const Staff = () => {
       <div style={{ display: "flex", backgroundColor: "#F7FAFC" }}>
         <AdminSidebar />
 
-        <Box fontFamily={"Open Sans"} p={5} width={"100%"}>
+        <Box fontFamily={"Open Sans"} p={5} width={"100%"}   position={"relative"} ml={["1%","18%"]} >
           {/* Top side */}
           <Flex 
           m={[5, 10, 15]}

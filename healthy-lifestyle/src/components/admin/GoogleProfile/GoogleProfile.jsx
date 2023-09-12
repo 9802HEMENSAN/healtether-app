@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 const GoogleProfile = () => {
   return (
     <div>
-      <div>
+      <div >
         <Navbar />
       </div>
       <div style={{ display: "flex" }}  >
@@ -16,6 +16,8 @@ const GoogleProfile = () => {
           direction={"column"}
           align="start"
           fontFamily={"Open Sans, sans-serif;"}
+          position={"relative"}
+          ml={["1%", "18%"]}
         >
           <Heading fontWeight={700} mx={5} mt={10} fontSize={["20px"]}>
             Business Profile

@@ -11,7 +11,7 @@ const Revenue = () => {
       </div>
       <div style={{ display: "flex" }}>
         <AdminSidebar />
-        <Box fontFamily={"Open Sans"} p={5} width={"100%"} m={5} justifyContent={"space-around"} >
+        <Box fontFamily={"Open Sans"} p={5} width={"100%"} m={5} justifyContent={"space-around"} position={"relative"} ml={["1%","18%"]}  >
           {/* Revenue Box */}
           <Flex flexDirection={["column","row"]} gap={10} h={"auto"}  boxShadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;" p={10}>
             <Flex flexDirection={"column"} align={"start"}>
