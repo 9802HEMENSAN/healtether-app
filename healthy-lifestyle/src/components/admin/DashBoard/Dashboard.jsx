@@ -34,9 +34,9 @@ const Dashboard = () => {
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>
-      {/* <Box   display={{ base: "none", md: "block" }} > */}
+   
         <AdminSidebar />
-      {/* </Box> */}
+ 
         {/* <h1>Dashboard</h1> */}
         <Box fontFamily={"Open Sans"} p={5} width={"100%"}  m={5}>
           <Flex direction={["column","row"]}  gap={5} justifyContent={"space-between"}>
