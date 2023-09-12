@@ -83,7 +83,7 @@ const AdminSidebar = () => {
           <Text fontSize={"large"}>Revenue</Text>
         </Flex>
       </Link>
-      <Link to="/admin/google-profile"> 
+      <Link to="/admin/customize-form"> 
       <Flex justify={"center"} alignItems={"center"} gap={3}>
          <SiGoogleforms fontSize={"x-large"} color="purple" />
           <Text fontSize={"large"}>Customise Form</Text>

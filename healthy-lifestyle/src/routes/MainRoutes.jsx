@@ -16,13 +16,13 @@ import Time from "../components/admin/Time";
  
  
 import Staff from "../components/admin/Staff/Staff";
-import CreateSlot from "../components/admin/CreateSlot";
 import Marketting from "../components/admin/Marketting/Marketting";
 import GoogleProfile from "../components/admin/GoogleProfile/GoogleProfile";
 import Analytics from "../components/admin/Analytics/Analytics";
 import Revenue from "../components/admin/Revenue/Revenue";
 import Dashboard from "../components/admin/DashBoard/Dashboard";
 import Whatsapp from "../components/admin/WhatsApp/Whatsapp";
+import CustomiseForm from "../components/admin/CustomiseForm/CustomiseForm";
 
 const MainRoutes = () => {
   return (
@@ -36,7 +36,7 @@ const MainRoutes = () => {
           <Route path="chat" element={<Whatsapp/>}></Route>
           <Route path="staff" element={<Staff/>}></Route>
           <Route path="time" element={<Time/>}></Route>
-          <Route path="CreateSlot" element={<CreateSlot/>}></Route>
+          <Route path="customize-form" element={<CustomiseForm/>}></Route>
           <Route path="allPatients" element={<AllPatients/>}></Route>
           <Route path="marketing" element={<Marketting/>}></Route>
           <Route path="analytics" element={<Analytics/>}></Route>
