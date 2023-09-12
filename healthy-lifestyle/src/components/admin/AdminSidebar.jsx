@@ -26,8 +26,7 @@ const AdminSidebar = () => {
         color: "black",
         alignItems: "flex-start",
         paddingLeft: "20px",
-        fontFamily : "Open Sans",
-        borderRight : "0.1px solid gray"
+        fontFamily : "Open Sans"
       }}
     >
       <Link to="/admin/dashboard">
@@ -101,8 +100,4 @@ const AdminSidebar = () => {
 
 export default AdminSidebar;
 
-{
-  /* <Route path="time" element={<Time />}></Route>
-<Route path="patients" element={<AllPatients />}></Route>
-<Route path="chat" element={<Whatsapp />}></Route> */
-}
+ 
