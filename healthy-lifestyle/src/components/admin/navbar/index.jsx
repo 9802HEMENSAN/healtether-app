@@ -8,8 +8,9 @@ const Navbar = () => {
   return (
     <Box>
       <Flex
-        position={"sticky"}
-        top={0}
+       
+        position = "sticky"
+        top = "0px"
         width={"99%"}
         layerStyle="card"
         h="4.5rem"
@@ -21,7 +22,7 @@ const Navbar = () => {
           <Image
             src="https://healtether.netlify.app/assets/newlogo-bce991c9.png"
             height="90px"
-            width={["260px", , "300px"]}
+            width={["200px", "230", "250px"]}
             mt={3}
           ></Image>
 

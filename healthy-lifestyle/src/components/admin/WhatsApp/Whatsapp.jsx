@@ -18,7 +18,7 @@ import { BsFillPersonPlusFill } from "react-icons/bs";
 const Whatsapp = () => {
   return (
     <Box>
-      <div>
+      <div style={{ position : "sticky", top : "0",  zIndex: 1000 }}>
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>

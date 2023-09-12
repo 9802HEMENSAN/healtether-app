@@ -44,7 +44,7 @@ const Data = [
 const Marketting = () => {
   return (
     <div>
-      <div>
+      <div  style={{ position : "sticky", top : "0" }}>
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>
