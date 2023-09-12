@@ -12,7 +12,7 @@ import {
   HiOutlineFolder,
 } from "react-icons/hi";
 import AllPatients from "../components/admin/AllPatients/AllPatients";
-import Time from "../components/admin/Time";
+import Time from "../components/admin/Timings/Time";
  
  
 import Staff from "../components/admin/Staff/Staff";
