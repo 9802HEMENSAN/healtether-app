@@ -19,7 +19,7 @@ import Staff from "../components/admin/Staff/Staff";
 import CreateSlot from "../components/admin/CreateSlot";
 import Marketting from "../components/admin/Marketting/Marketting";
 import GoogleProfile from "../components/admin/GoogleProfile/GoogleProfile";
-import Analytics from "../components/admin/Analytics";
+import Analytics from "../components/admin/Analytics/Analytics";
 import Revenue from "../components/admin/Revenue/Revenue";
 import Dashboard from "../components/admin/DashBoard/Dashboard";
 import Whatsapp from "../components/admin/WhatsApp/Whatsapp";
