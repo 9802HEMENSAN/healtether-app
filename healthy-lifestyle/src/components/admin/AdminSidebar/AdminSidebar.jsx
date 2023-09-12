@@ -14,9 +14,10 @@ import { BsCreditCard2FrontFill } from "react-icons/bs";
 import "./AdminSidebar.css"
 const AdminSidebar = () => {
   return (
+    <> 
     <Box
       className="sidebar"
-      display= {["none", "block", "block"]}
+      display= {["none", "none", "block"]}
     >
       <Link to="/admin/dashboard">
         <Flex className="sidebar-link">
@@ -84,6 +85,7 @@ const AdminSidebar = () => {
         </Flex>
       </Link>
     </Box>
+    </>
   );
 };
 

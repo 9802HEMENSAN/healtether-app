@@ -29,7 +29,7 @@ import { Divider } from '@chakra-ui/react'
 
 const Dashboard = () => {
   return (
-    <Box minHeight="100vh" fontFamily={"Open Sans, sans-serif;"}>
+    <Box minHeight="100vh" fontFamily={"Open Sans, sans-serif;"} position={"relative"} m={["10%","0%"]}>
       <div>
         <Navbar />
       </div>
