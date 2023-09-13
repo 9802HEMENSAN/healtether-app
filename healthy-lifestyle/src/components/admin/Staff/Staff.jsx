@@ -1,7 +1,7 @@
 import React from "react";
 import AdminSidebar from "../AdminSidebar/AdminSidebar";
 import Navbar from "../navbar/index";
-import { Box, Button, Flex, Heading, Select } from "@chakra-ui/react";
+import { Box, Button, Divider, Flex, Heading, Select } from "@chakra-ui/react";
 import { HiOutlinePlus } from "react-icons/hi";
  
 import {
@@ -26,28 +26,30 @@ const Staff = () => {
       <div style={{ display: "flex", backgroundColor: "#F7FAFC" }}>
         <AdminSidebar />
 
-        <Box fontFamily={"Open Sans"} p={5} width={"100%"}   position={"relative"} ml={["1%","18%"]} >
+        <Box fontFamily={"Open Sans"}   width={"auto"}   position={"relative"} ml={["0%","18%"]} >
           {/* Top side */}
           <Flex 
-          m={[5, 10, 15]}
-            align="left"
-            flexDirection={"row"}
-            justifyContent={"space-between"}
-            gap={6}
+            m={["1%","2%","5%"]}
+            align={["left"]}
+            flexDirection={["column","column","row"]}
+            justifyContent={"space-evenly"}
+            gap={[2,4,6]}
           >
-            <Heading fontSize={[12, 23, 35]}>Clinic Staff:</Heading>
+            <Heading fontSize={["2xl", "3xl", "3xl"]}>Clinic Staff:</Heading>
 
-         
+          
             <Button
               colorScheme="facebook"
-              leftIcon={<HiOutlinePlus fontSize={"x-large"} />}
+              leftIcon={<HiOutlinePlus fontSize={["large","x-large"]} />}
               bg={"#5E72E4"}
+              width={"auto"}
             >
               Add Staff
             </Button>
           </Flex>
           {/* Table Box */}
-          <TableContainer m={[5, 10, 15]}>
+          <Divider my={[5,10,15]}/>
+          <TableContainer  size={["sm", "md", "lg"]} >
             <Table size={["sm", "md", "lg"]}>
               <Thead>
                 <Tr>

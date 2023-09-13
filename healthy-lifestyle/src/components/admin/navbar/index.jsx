@@ -99,7 +99,7 @@ const Navbar = () => {
             _hover={{ cursor: "pointer" }}
             w={["100px", "170px"]}
             objectFit={"contain"}
-            src={"http://localhost:3000/static/media/national_logo.99f939cd8903f3bcce95.jpeg"}
+            src={"https://healtether.netlify.app/assets/logo2-1bd69b55.jpeg"}
           ></Image>
 
           <Link to="/">
@@ -108,7 +108,7 @@ const Navbar = () => {
               objectFit={"contain"}
               _hover={{ cursor: "pointer" }}
               w={["130px", "170px"]}
-              src={"http://localhost:3000/static/media/healtether_logo.3b47145493abd1b67ce9.png"}
+              src={"https://healtether.netlify.app/assets/newlogo-bce991c9.png"}
             ></Image>
           </Link>
           <Box
