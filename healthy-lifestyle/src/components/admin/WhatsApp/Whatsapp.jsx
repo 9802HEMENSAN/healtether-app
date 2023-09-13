@@ -23,9 +23,9 @@ const Whatsapp = () => {
       </div>
       <div style={{ display: "flex" }}>
         <AdminSidebar />
-        <Flex direction={["column", "row"]} position={"relative"} ml={["1%","20%"]} >
+        <Flex direction={["column", "row"]} position={"relative"} ml={["3%","20%"]} >
           {/* Left Box */}
-          <Box flex={1} width="30rem" my={10} >
+          <Box flex={1} width={["20rem", "25rem","30rem"]} my={[5,7,10]} >
             <Flex alignItems={"center"} justifyContent={"center"} gap={1}>
               <Image
                 src={
@@ -35,7 +35,7 @@ const Whatsapp = () => {
                 borderRadius={"50%"}
               />
               <Box alignContent={"start"}>
-                <Heading fontSize={"2xl"} color="#5E72E4">
+                <Heading fontSize={["xl","2xl"]} color="#5E72E4">
                   Dr. Arjun Krishna 's Chat
                 </Heading>
                 <Text fontSize={"sm"}>
@@ -45,12 +45,12 @@ const Whatsapp = () => {
             </Flex>
             {/* Search Bar */}
             <Flex justifyContent={"center"} gap={2} my={4}>
-              <InputGroup w={300} size="lg">
+              <InputGroup w={["20rem","25rem","30rem"]} size="lg">
                 <InputLeftAddon children={<FiSearch color="blue" />} />
 
                 <Input
                   type="search"
-                  placeholder="Search by Name or Phone no."
+                  placeholder="Search by Name/phone"
                 />
               </InputGroup>
 
@@ -72,30 +72,31 @@ const Whatsapp = () => {
               </Button>
             </Flex>
             {/* Profile Support */}
-            <Box my={50}>
+            <Box mx ={[4,6,8]}  >
               <Flex
                 gap={2}
-                justifyContent={"start"}
+                justifyContent={"space-around"}
                 m={2}
-                
+                alignItems={"center"}
                 bg={"#F3F3F3"}
+                p={3}
               >
                 <Flex
                   justifyContent={"center"}
                   alignItems={"center"}
                   gap={1}
                   fontSize={"2xl"}
-                  bg={"blue"}
+                  bg={"green"}
                   p={2}
-                  height={"50px"}
-                  width={"50px"}
+                  height={"auto"}
+                  width={"15%"}
                   color="white"
                   borderRadius={"50%"}
                 >
                   H
                 </Flex>
                 <Flex direction={"column"}  align={"start"}>
-                  <Flex gap={2}   justifyContent={"space-between"} w={300}>
+                  <Flex gap={2}   justifyContent={"space-evenly"} w={"auto"}>
                     <Text fontWeight={"bold"}>healtether Support</Text>
                     <Text >{new Date().toLocaleDateString()}</Text>
                   </Flex>
@@ -106,9 +107,9 @@ const Whatsapp = () => {
           </Box>
 
           {/* Right Box */}
-          <Box flex={2} bg={"gray"} width="50rem">
+          <Box flex={1} width={"auto"} bg={"blue"}>
             <Image
-              w={"100%"}
+              w={'auto'}
               height={"100%"}
               alt="whatsapp"
               objectFit={"contain"}
