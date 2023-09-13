@@ -6,25 +6,25 @@ import { FcGoogle } from "react-icons/fc";
 const GoogleProfile = () => {
   return (
     <div>
-      <div >
+      <div   style={{ position : "sticky", top : "0" }} >
         <Navbar />
       </div>
       <div style={{ display: "flex" }}  >
         <AdminSidebar />
         <Flex   
-          w="100%" 
+          w={["60%","50%","100%" ]}
           direction={"column"}
           align="start"
           fontFamily={"Open Sans, sans-serif;"}
           position={"relative"}
-          ml={["1%", "18%"]}
+          ml={["0%", "18%"]}
         >
-          <Heading fontWeight={700} mx={5} mt={10} fontSize={["20px"]}>
+          <Heading fontWeight={700} mx={5} mt={10} fontSize={[12,14,16]}>
             Business Profile
           </Heading>
           <Box
             boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
-            p={10}
+            p={[5,8,10]}
             m={5}
  
             w="90%"
@@ -34,16 +34,16 @@ const GoogleProfile = () => {
             </Heading>
 
             <Flex direction={"column"} justifyContent={"center"} align={"center"}>
-              <Image w={"35%"} h={"300px"} src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif" />
-              <Center p={8}>
+              <Image w={["30%","33%","35%"]} h={[150,160,170]} src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif" />
+              <Center p={[4,6,8]}>
                 <Button
                   w={"full"}
-                  maxW={"md"}
+                  maxW={["sm","md", "lg"]}
                   variant={"outline"}
                   leftIcon={<FcGoogle />}
                 >
                   <Center>
-                    <Text color="blue.500">Link Your Google Business Account</Text>
+                    <Text color="blue.500" fontSize={[12,14,16]}>Link Your Google Business Account</Text>
                   </Center>
                 </Button>
               </Center>

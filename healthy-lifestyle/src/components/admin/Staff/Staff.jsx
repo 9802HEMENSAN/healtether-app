@@ -19,7 +19,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const Staff = () => {
   return (
-    <div>
+    <div   style={{ position : "sticky", top : "0" }}>
       <div>
         <Navbar />
       </div>

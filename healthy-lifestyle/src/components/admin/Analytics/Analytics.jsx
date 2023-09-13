@@ -20,7 +20,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 const Analytics = () => {
   return (
     <div>
-      <div>
+      <div   style={{ position : "sticky", top : "0" }}>
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>

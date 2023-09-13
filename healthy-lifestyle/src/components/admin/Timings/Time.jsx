@@ -98,21 +98,21 @@ const Time = () => {
 
   return (
     <div>
-      <div>
+      <div   style={{ position : "sticky", top : "0" }}>
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>
         <AdminSidebar />
-        <Box p={4} fontFamily={"Open Sans"} width={"100%"} position={"relative"} ml={["1%","20%"]} >
-          <Stack spacing={2} m={10}>
-            <Flex gap={4}  align={"center"}>
-              <Text fontSize={[14, 16, 18]}>Showing your timings for:</Text>
+        <Box p={4} fontFamily={"Open Sans"} width={"100%"} position={"relative"} ml={["0%","20%"]} >
+          <Stack spacing={2} m={[2,5,10]}>
+            <Flex gap={[2,2,4]}  align={"center"} flexDirection={["column", "row", "row"]} >
+              <Text fontSize={[16, 16, 18]}>Showing your timings for:</Text>
               <Select w={300}>
                 <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
                 <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
               </Select>
             </Flex>
-            <Flex alignContent={"center"} align={"center"}>
+            <Flex alignContent={"center"} align={"center"} flexDirection={["column", "row", "row"]}>
               <Center  >
                 <Button
                   w={"full"}

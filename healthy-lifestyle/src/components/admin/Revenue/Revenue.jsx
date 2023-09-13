@@ -6,7 +6,7 @@ import { Box, Divider, Flex, Heading, Text } from "@chakra-ui/react";
 const Revenue = () => {
   return (
     <div>
-      <div>
+      <div   style={{ position : "sticky", top : "0" }}>
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>

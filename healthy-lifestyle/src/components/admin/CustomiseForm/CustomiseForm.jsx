@@ -50,7 +50,7 @@ const CustomiseForm = () => {
 
   return (
     <div>
-      <div>
+      <div   style={{ position : "sticky", top : "0" }} >
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>

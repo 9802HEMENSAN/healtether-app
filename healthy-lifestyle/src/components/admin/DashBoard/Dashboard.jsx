@@ -30,7 +30,7 @@ import { Divider } from '@chakra-ui/react'
 const Dashboard = () => {
   return (
     <Box minHeight="100vh" fontFamily={"Open Sans, sans-serif;"} position={"relative"} m={["10%","0%"]}>
-      <div>
+      <div   style={{ position : "sticky", top : "0" }} >
         <Navbar />
       </div>
       <div style={{ display: "flex" }}>
@@ -41,10 +41,10 @@ const Dashboard = () => {
         <Box fontFamily={"Open Sans"} p={5} width={"100%"}  m={5} position={"relative"} ml={["1%","20%"]} >
           <Flex direction={["column","row"]}  gap={5} justifyContent={"space-between"}>
             <Flex flexDirection={"column"} align={"start"}>
-              <Text fontWeight={"600"} fontSize={["small", "medium", "2xl"]}>
+              <Text fontWeight={"600"} fontSize={["medium", "medium", "2xl"]}>
                 👋 Hi, Arjun Krishna
               </Text>
-              <Text fontSize={["small", "medium", "large"]} textAlign={"start"}>
+              <Text fontSize={["medium", "medium", "large"]} textAlign={"start"}>
                 Mon, Sep 11
               </Text>
               <Text
@@ -52,13 +52,13 @@ const Dashboard = () => {
               >{`${0} Upcoming | ${0} Completed | ${0} Cancelled`}</Text>
               <Flex justifyContent={"center"} align={"center"}>
                 <RiWhatsappFill color="green" />
-                <Text fontSize={["small", "medium", "large"]}>
+                <Text fontSize={["medium", "medium", "large"]}>
                   WhatsApp link sent to 0 patients
                 </Text>
               </Flex>
             </Flex>
             <Box>
-              <Flex gap={[2, 4, 5]} fontFamily={"sans-serif"}>
+              <Flex gap={[2, 4, 5]} fontFamily={"sans-serif"} flexDirection={["column", "row", "row"]} alignItems={"center"}>
                 <Button
                   colorScheme="facebook"
                   leftIcon={<HiOutlinePlus fontSize={"x-large"} />}
@@ -75,7 +75,7 @@ const Dashboard = () => {
                   </Button>
                 </ButtonGroup>
               </Flex>
-              <Text textAlign={"left"}>
+              <Text textAlign={["center", "left"]} fontSize={["small", "medium", "large"]}>
                 Press <i>"N"</i> to add appointment
               </Text>
             </Box>
@@ -92,7 +92,7 @@ const Dashboard = () => {
                 <Input
                   type="search"
                   fontSize={["small", "medium", "large"]}
-                  placeholder='press  "/" to search Patients '
+                  placeholder='search Patients '
                 />
               </InputGroup>
 
