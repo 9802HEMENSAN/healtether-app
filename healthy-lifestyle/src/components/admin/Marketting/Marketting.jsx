@@ -54,7 +54,7 @@ const Marketting = () => {
           <Flex
             m={[5, 10, 15]}
             align="left"
-            flexDirection={"row"}
+            flexDirection={["column", "column", "row"]}
             justifyContent={"space-between"}
             gap={6}
             color="#32325d"
@@ -62,9 +62,9 @@ const Marketting = () => {
             lineHeight={"24px"}
             fontWeight={400}
           >
-            <Box align="start" w="50%">
-              <Heading fontSize={[12, 23, 35]}>Marketing Posters</Heading>
-              <Text>
+            <Box align={"start"} w="50%">
+              <Heading fontSize={["1rem","1.1rem", "1.3rem"]}>Marketing Posters</Heading>
+              <Text fontSize={["1rem","1.1rem", "1.3rem"]} >
                 Personally curated marketing content for your medical practice.
                 Share these posters on your facebook page or broadcast them to
                 your entire patient database with the click of a button.

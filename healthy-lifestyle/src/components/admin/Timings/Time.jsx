@@ -171,8 +171,8 @@ const Time = () => {
 
           <Flex flexDirection={"column"} gap={5}>
             {days.map((day) => (
-              <Flex key={day} flexDirection={"row"} gap={5} minHeight={100}>
-                <Heading fontWeight="bold" fontSize={[14, 16, 18]}>
+              <Flex key={day} flexDirection={["column","row"]} gap={5} minHeight={100}>
+                <Heading fontWeight="bold" fontSize={["sm", "md", "lg"]}>
                   {day}
                 </Heading>
                 <Flex mt={2} alignItems="center">
@@ -180,7 +180,8 @@ const Time = () => {
                     <FormLabel
                       htmlFor={`toggle-${day}`}
                       mb={0}
-                      fontSize={[14, 16, 18]}
+                      fontWeight={`semibold`}
+                      fontSize={["sm", "md", "lg"]}
                     >
                       Enable Slot Creation
                     </FormLabel>
@@ -193,19 +194,16 @@ const Time = () => {
 
                   {isCreatingSlots[day] && (
                     <Flex alignItems="center" ml={4}>
-                      <div
-                        style={{
-                          display: "flex",
-                          justifyContent: "center", // You can adjust alignment as needed
-                          alignItems: "center",
-                        }}
+                      <Flex
+                       flexDirection={["column","row"]} 
+                       gap={2}
                       >
                         <TimeRange
                           startMoment={startTime}
                           endMoment={endTime}
                           onChange={handleTimeChange}
                         />
-                      </div>
+                      </Flex>
 
                       <Button
                         ml={4}

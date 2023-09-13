@@ -30,27 +30,28 @@ const Analytics = () => {
           p={5}
           width={"100%"}
           boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
-          position={"relative"} ml={["1%","18%"]} 
+          position={"relative"} 
+          ml={["1%","18%"]} 
           m={5}
         >
           {/*  */}
 
-          <Flex justifyContent={"space-evenly"}>
-            <Flex direction={"column"} align="start">
-              <Heading fontSize={[14, 16, 18]}>Revenue</Heading>
-              <Text fontSize={[8, 10, 12]} fontWeight={"600"} color="#8898aa">
+          <Flex justifyContent={"space-evenly"} gap={"0.5px"} flexDirection={["column", "row"]} flexWrap={["wrap", "wrap","nowrap"]}>
+            <Flex direction={"column"}   align="start" lineHeight={1.5}>
+              <Heading fontSize={["0.6rem","0.8rem","0.8rem"]}>Revenue</Heading>
+              <Text fontSize={["0.6rem","0.8rem","0.8rem"]} fontWeight={"600"} color="#8898aa">
                 01 SEP 2023 - 12 SEP 2023
               </Text>
-              <Flex gap={1}>
+              <Flex gap={"1px"}>
                 <Text
-                  fontSize={[8, 10, 12]}
+                  fontSize={["0.4rem","0.4rem","0.8rem"]}
                   color="#5e72e4
-"
+"    
                 >
                   INCREASE YOUR REVENUE THROUGH
                 </Text>
                 <Text
-                  fontSize={[8, 10, 12]}
+                 fontSize={["0.4rem","0.4rem","0.8rem"]}
                   color="#ff4500
 "
                 >
@@ -58,22 +59,22 @@ const Analytics = () => {
                 </Text>
               </Flex>
             </Flex>
-            <Flex  gap={5} width={"70%"}>
-              <Select size="md" >
+            <Flex  gap={5} my={5} width={"70%"} flexDirection={["column", "row"]}>
+              <Select size={["sm", "md", "md" ]} mx={3}>
                 <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
                 <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
                 <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
               </Select>
-              <Button  size="md" p={7} fontSize={14}>
+              <Button  size="md" p={10} fontSize={["sm", "md", "md"]}>
                 THIS MONTH
               </Button>
-              <Button  size="md" p={7} fontSize={14}>
+              <Button  size="md" p={10} fontSize={["sm", "md", "md"]}>
                  WEEK
               </Button>
-              <Button  size="md" p={7} fontSize={14}>
+              <Button  size="md" p={10} fontSize={["sm", "md", "md"]}>
                 TODAY
               </Button>
-              <Button  size="md" p={7} fontSize={14}>
+              <Button  size="md" p={10} fontSize={["sm", "md", "md"]}>
                 LAST MONTH
               </Button>
             </Flex>
@@ -125,7 +126,7 @@ const Analytics = () => {
           </Flex>
 
           {/* Table Box */}
-             <Heading  textAlign="start"  fontSize={[12,14,18]}>Total Amount: Rs. 0</Heading>
+             <Heading  textAlign="start"  fontSize={["1rem", "1.2rem", "1.3rem"]}>Total Amount: Rs. 0</Heading>
           <TableContainer m={[5, 10, 15]}>
             <Table size={["sm", "md", "lg"]}>
               <Thead>
