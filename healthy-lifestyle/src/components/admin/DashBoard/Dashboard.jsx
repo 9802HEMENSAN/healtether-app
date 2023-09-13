@@ -102,8 +102,7 @@ const Dashboard = () => {
                 <option value="Month">Month</option>
               </Select>
 
-              <Input  
-
+              <Input 
                 placeholder="Select Date and Time"
                 size="lg"
                 type="datetime-local"

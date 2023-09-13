@@ -24,7 +24,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import { Link as RouterLink } from "react-router-dom";
+import { Link, Link as RouterLink } from "react-router-dom";
 import logo1 from "../assets/national_logo.jpeg";
 import logo2 from "../assets/healtether_logo.png";
 
@@ -252,6 +252,7 @@ const MobileNav = () => {
         >
           Download App
         </Button>
+        <Link to={"/admin/dashboard"}> 
         <Button
           display={{ base: "block", md: "none" }}
           color="green.700"
@@ -267,6 +268,7 @@ const MobileNav = () => {
         >
           Login
         </Button>
+        </Link>
       </Flex>
     </Stack>
   );

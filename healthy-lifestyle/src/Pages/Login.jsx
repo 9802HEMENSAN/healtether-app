@@ -23,8 +23,8 @@ export default function Login() {
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
-      alert('Make a Login Logic here ! CLick okay to go to DashBoard')
-      navigate("/admin/time")
+      alert('Make a Login Logic here ! Click okay to go to DashBoard')
+      navigate("/admin/dashboard")
   }
 
   return (

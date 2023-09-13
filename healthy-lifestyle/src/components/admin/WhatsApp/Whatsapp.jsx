@@ -72,13 +72,14 @@ const Whatsapp = () => {
               </Button>
             </Flex>
             {/* Profile Support */}
-            <Box mx ={[4,6,8]}  >
+            <Box mx ={[4,6,8]}     >
               <Flex
                 gap={2}
-                justifyContent={"space-around"}
+                justifyContent={"start"}
                 m={2}
                 alignItems={"center"}
                 bg={"#F3F3F3"}
+               
                 p={3}
               >
                 <Flex
@@ -87,16 +88,16 @@ const Whatsapp = () => {
                   gap={1}
                   fontSize={"2xl"}
                   bg={"green"}
-                  p={2}
+                  width={"10%"}
                   height={"auto"}
-                  width={"15%"}
+                  p={2}
                   color="white"
-                  borderRadius={"50%"}
+                  borderRadius={"51%"}
                 >
                   H
                 </Flex>
                 <Flex direction={"column"}  align={"start"}>
-                  <Flex gap={2}   justifyContent={"space-evenly"} w={"auto"}>
+                  <Flex gap={2}   justifyContent={"space-between"} w={["auto","auto"]}>
                     <Text fontWeight={"bold"}>healtether Support</Text>
                     <Text >{new Date().toLocaleDateString()}</Text>
                   </Flex>
