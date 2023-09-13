@@ -27,21 +27,23 @@ const AllPatients = () => {
       <div style={{ display: "flex", backgroundColor: "#F7FAFC" }}>
         <AdminSidebar />
 
-        <Box fontFamily={"Open Sans"} p={5} width={"70%"} position={"relative"} ml={"20%"}>
+        <Box fontFamily={"Open Sans"} p={15} width={"70%"} position={"relative"} ml={"20%"} >
           {/* Top side */}
           <Flex 
-          m={[5, 10, 15]}
+           m={[1, 10, 15]}
             align="left"
-            flexDirection={"row"}
+            flexDirection={["column","column","column","row"]}
             justifyContent={"space-between"}
+            alignItems={["center","center","flex-start"]}
+            flexWrap={"wrap"}
             gap={6}
           >
-            <Heading fontSize={[12, 23, 25]}>All Patients</Heading>
+            <Heading fontSize={[20, 23, 25]}>All Patients</Heading>
 
-            <Select w={["100px", "200px", "300px"]}>
-              <option value="All">All</option>
-              <option value="Dr.Arjun Krishna">Dr.Arjun </option>
-              <option value="Dr. Arjun Krishna">Dr. Arjun </option>
+            <Select w={["10rem","25rem","30rem"]} size={["md", "md", "lg"]}>
+              <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
+              <option value="Dr.Arjun Krishna">Dr.Arjun Krishna</option>
+              <option value="Dr. Arjun Krishna">Dr. Arjun Krishna</option>
             </Select>
             <Button
               colorScheme="facebook"
