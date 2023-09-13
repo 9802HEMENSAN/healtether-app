@@ -12,12 +12,12 @@ const GoogleProfile = () => {
       <div style={{ display: "flex" }}  >
         <AdminSidebar />
         <Flex   
-          w={["60%","50%","100%" ]}
+          w={"100%"}
           direction={"column"}
           align="start"
           fontFamily={"Open Sans, sans-serif;"}
           position={"relative"}
-          ml={["0%", "18%"]}
+          ml={["0%", "10%","18%"]}
         >
           <Heading fontWeight={700} mx={5} mt={10} fontSize={[12,14,16]}>
             Business Profile
@@ -34,7 +34,7 @@ const GoogleProfile = () => {
             </Heading>
 
             <Flex direction={"column"} justifyContent={"center"} align={"center"}>
-              <Image w={["30%","33%","35%"]} h={[150,160,170]} src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif" />
+              <Image src="https://i.pinimg.com/originals/7c/89/90/7c89904c65970d2581ce4b5a392f7712.gif" />
               <Center p={[4,6,8]}>
                 <Button
                   w={"full"}
